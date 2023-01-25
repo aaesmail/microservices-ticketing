@@ -22,7 +22,7 @@ Services:
 
 Technologies:
 - Kubernetes
-- NATS Streaming
+- Event bus (NATS Streaming)
 - Docker
 - Redis
 - Express
