@@ -1,6 +1,6 @@
 # Microservices Ticketing
 
-A Microservies based architecture using Nodejs to create an application where all services has its own database and they replicate data for high availability using event bus NATS Streaming
+A Microservices based architecture using Nodejs to create an application where all services has its own database and they replicate data for high availability using event bus NATS Streaming
 
 The cluster uses an Ingress Nginx Object to route all data to its respective service
 The backend services communicate using event-bus only (no direct communication happens between any service)
