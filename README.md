@@ -5,6 +5,10 @@ A Microservies based architecture using Nodejs to create an application where al
 The cluster uses an Ingress Nginx Object to route all data to its respective service
 The backend services communicate using event-bus only (no direct communication happens between any service)
 
+Added tests for all services to make sure everything is working as expected
+
+Also have CI/CD setup to run all tests in the project using Github Workflow
+
 A Frontend using Next.js has users and tickets creating, deleting, booking & purchasing
 There is a common library that is hosted on npm that all services install to share definitions of events so that all services can get typescript support on events
 
